@@ -1,0 +1,12 @@
+list= [3,5,7,9,"10.5"]
+print(list)
+list.append("python")
+print(list)
+count=len(list)
+print(count)
+print(list[2])
+print(list[-2])
+print(list[1:5])
+list.remove("python")
+print(list)
+print("10.5" in list)
